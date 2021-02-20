@@ -1,0 +1,2 @@
+class CLIPokedex::Scraper
+end 

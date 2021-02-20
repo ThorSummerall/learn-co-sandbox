@@ -1,0 +1,2 @@
+class CLIPokedex::Pokemon 
+end 
