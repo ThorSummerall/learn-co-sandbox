@@ -1,14 +1,19 @@
 class CLIPokedex::CLI 
   def call
     puts "Welcome to the Pokedex."
-    
-    # get_all_pokemon
   end
   
   def get_all_pokemon
-    #scrapes for pokemon name and number 
-    pokemon = {
-      
+    @pokemon_basic_info = { 
+        name: "Bulbasaur", 
+        number: "001"
+    }
+    
+    @pokemon_adv_info = { 
+        type: "nil", 
+        :stats => {
+          
+        }
     }
   end
 end 

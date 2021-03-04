@@ -1,5 +1,7 @@
-note for git 
-to stage a commit
+git add .
+git commit -m 'message here'
+
+REMOVE THE fancy text from url's and such. open-uri doesn't like it and will throw out an error.
 
 Intro text
 lists possible inputs 
@@ -14,6 +16,7 @@ Classes
   - runs through the website and gathers it for the pokemon class
 - pokemon 
   - stores the info of each pokemon
+  - stats stores the different stats as an array. don't wanna do individual variables and stuff, would get too big.
 
 each pokemon has this info saved and stored into an hash 
 - Generation
